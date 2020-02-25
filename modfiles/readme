@@ -1,0 +1,8 @@
+这几个文件有修改，是开机后调试改的，可以放在 overlay/中的，但是如果开机后没问题也可以不改，编译后不改这个也能开机。就是看开机后的log来调整。
+
+
+用find -name  文件名                 #找到文件的位置对比一下改了哪里，可以做为参考吧 ^v^
+
+
+xed hardware/qcom/media-caf/msm8996/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp
+3763-3766    mod add //
