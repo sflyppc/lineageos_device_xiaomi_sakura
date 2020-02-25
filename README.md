@@ -1,2 +1,0 @@
-# lineageos_device_xiaomi_sakura
-xiaomi redmi6pro-device-for_lineageos
